@@ -1,0 +1,36 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 500;
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+    border-radius: 5px;
+}
+.nav1{
+    background-color: #0eb6e5;
+    border: 2px solid yellow;
+    color: rgb(3, 0, 0);
+}
+
+.navButton:hover{
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    color: aliceblue;
+    border: 2px solid yellow;
+}
